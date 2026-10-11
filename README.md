@@ -13,7 +13,6 @@ Dauntless shut down in May 2025, but Epic's CDN still serves the chunks for old 
 
 | Version | Why |
 |---|---|
-| **1.12.0.392819** | Target build of the Mystic Paradox private server project |
 | **1.4.4** | Target build of the dauntless-revived private server project |
 | **2.1.0.681846** | First Awakening build |
 | Anything from 2019 or 2020 | Nothing from before Reforged is archived yet |
@@ -25,10 +24,11 @@ If you ever installed Dauntless through Epic, Legendary or Heroic, you may have 
 | Version | Build | Files | Download | Installed | Manifest | SHA-1 |
 |---|---|---|---|---|---|---|
 | 1.6.2 | 271281 | 444 | 11.08 GB | 11.56 GB | [download](manifests/Windows/Dauntless_1.6.2.271281.manifest) | `1d98a586c34a69d3ea8d26bcd1e4dcfd3113e751` |
+| 1.12.0 | 392819 | 609 | 14.74 GB | 15.29 GB | [download](manifests/Windows/Dauntless_1.12.0.392819.manifest) | `46b4097c070afc29ed783e77a68ffa936b6a3504` |
 | 1.14.7 | 647472 | 611 | 14.89 GB | 15.39 GB | [download](manifests/Windows/Dauntless_1.14.7.647472.manifest) | `aa70748e4c0a776a991f2bac10ad342adaa31476` |
 | 2.1.1 | 682875 | 832 | 13.86 GB | 14.45 GB | [download](manifests/Windows/Dauntless_2.1.1.682875.manifest) | `2406ba6b70410692acbad2dbbcd9090e0349576e` |
 
-Chunks for all three builds were still being served by Epic's CDN when spot-checked in October 2026. Epic can remove old chunks at any time, so a manifest here is not a guarantee.
+Chunks for 1.6.2, 1.14.7 and 2.1.1 were still being served by Epic's CDN when spot-checked in October 2026. 1.12.0 was added on October 11, 2026. Epic can remove old chunks at any time, so a manifest here is not a guarantee.
 
 ## Wanted builds
 
@@ -52,7 +52,7 @@ Dauntless was on the Epic Games Store from May 21, 2019 until the shutdown, so e
 | 1.9.x | 2021 to 2022 | wanted |
 | 1.10.x | 2022 | wanted |
 | 1.11.x | 2022, through 1.11.5 in September | wanted |
-| 1.12.x | October to December 2022 | wanted, **1.12.0 most of all** |
+| 1.12.x | October to December 2022 | **1.12.0 archived**, others wanted |
 | 1.13.x | January to April 2023 | wanted |
 | 1.14.x | April 2023 to April 2024 | **1.14.7 archived**, others wanted |
 | 2.1.x | December 2024, Awakening | **2.1.1 archived**, 2.1.0 wanted |
@@ -61,7 +61,7 @@ Dauntless was on the Epic Games Store from May 21, 2019 until the shutdown, so e
 
 | Version | Released | Status |
 |---|---|---|
-| 1.12.0 (build 392819) | October 13, 2022 | **wanted** |
+| 1.12.0 (build 392819) | October 13, 2022 | **archived** |
 | 1.12.1 | 2022 | wanted |
 | 1.12.2 | November 9, 2022 | wanted |
 | 1.12.3 | December 1, 2022 | wanted |
@@ -101,6 +101,7 @@ Open an issue, or message the maintainer on Discord: `addison2k`
 ## Credits
 
 - 1.6.2 and 2.1.1: from the maintainer's own installs
+- 1.12.0: community contribution
 - 1.14.7: Moyka009
 - Tooling: [meszmate/manifest](https://github.com/meszmate/manifest)
 - Inspired by [VastBlast/FortniteManifestArchive](https://github.com/VastBlast/FortniteManifestArchive)

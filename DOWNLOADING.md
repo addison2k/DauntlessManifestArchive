@@ -23,6 +23,12 @@ Make sure the output drive has room for the installed size listed in the [README
 manifest download "https://raw.githubusercontent.com/addison2kpuzzle-source/DauntlessManifestArchive/main/manifests/Windows/Dauntless_1.6.2.271281.manifest" --base-url "https://epicgames-download1.akamaized.net/Builds/Org/o-krlzxj88qrtb69fredeuaf887bl5az/Jackal/default" --output "D:\Dauntless_1.6.2"
 ```
 
+**1.12.0** (15.29 GB installed)
+
+```
+manifest download "https://raw.githubusercontent.com/addison2kpuzzle-source/DauntlessManifestArchive/main/manifests/Windows/Dauntless_1.12.0.392819.manifest" --base-url "https://epicgames-download1.akamaized.net/Builds/Org/o-krlzxj88qrtb69fredeuaf887bl5az/Jackal/default" --output "D:\Dauntless_1.12.0"
+```
+
 **1.14.7** (15.39 GB installed)
 
 ```
