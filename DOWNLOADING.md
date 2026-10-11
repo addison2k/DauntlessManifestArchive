@@ -4,18 +4,21 @@ You need the tool and one command. No Epic login is involved.
 
 ## 1. Get the tool
 
-Download the Windows build of [meszmate/manifest](https://github.com/meszmate/manifest/releases) and unzip it. Open Command Prompt in that folder.
+Download **[manifest_fixed_windows_amd64.zip](https://github.com/addison2kpuzzle-source/DauntlessManifestArchive/raw/main/tools/manifest_fixed_windows_amd64.zip)** from this repo and unzip it.
+
+This is [meszmate/manifest](https://github.com/meszmate/manifest) v0.1.0 with one bug fixed. **Do not use the original v0.1.0 release:** it fails on about a quarter of the chunks in some builds with `zlib: invalid header` and can never finish. Details, the source patch and checksums are in [tools/](tools/README.md).
+
+Open Command Prompt in the unzipped folder: open the folder in File Explorer, click the address bar, type `cmd` and press Enter.
 
 ```
-cd /d "C:\path\to\manifest_0.1.0_windows_amd64"
-manifest --help
+manifest --version
 ```
 
 ## 2. Download a build (quick way)
 
 The tool can read a manifest straight from this repo, so there is nothing to save first. Copy the command for the version you want, change the `--output` folder, and run it as one line.
 
-Make sure the output drive has room for the installed size listed in the [README](README.md).
+**Disk space:** you need about twice the installed size free on the output drive while it runs. The tool stores all the chunks first, then builds the game files from them, then deletes the chunks. Once it finishes, the folder shrinks to the installed size.
 
 **1.6.2** (11.56 GB installed)
 
@@ -41,7 +44,9 @@ manifest download "https://raw.githubusercontent.com/addison2kpuzzle-source/Daun
 manifest download "https://raw.githubusercontent.com/addison2kpuzzle-source/DauntlessManifestArchive/main/manifests/Windows/Dauntless_2.1.1.682875.manifest" --base-url "https://epicgames-download1.akamaized.net/Builds/Org/o-krlzxj88qrtb69fredeuaf887bl5az/Jackal/default" --output "D:\Dauntless_2.1.1"
 ```
 
-If the download is interrupted, run the same command again. Chunks already downloaded are skipped.
+If the download is interrupted, run the same command again. Chunks already downloaded are skipped. Game files only appear in the folder at the very end, so an empty-looking folder during the download is normal.
+
+A finished download ends with a summary that says `failed: 0`.
 
 ## 3. Verify
 
@@ -77,7 +82,7 @@ https://epicgames-download1.akamaized.net/Builds/Org/o-krlzxj88qrtb69fredeuaf887
 
 ## If it is slow
 
-Old builds are not cached near you, so 5 to 8 MB/s is normal. You can stop with `Ctrl+C` and try a different host or more parallel downloads. Keep the same `--output` folder so progress carries over.
+Speed depends on your connection and on Epic's servers. If it crawls, you can stop with `Ctrl+C` and try a different host or more parallel downloads. Keep the same `--output` folder so progress carries over.
 
 Other hosts (same path, same files):
 
@@ -89,6 +94,8 @@ https://egs-cloudfront-chunks.epicgamescdn.com/Builds/Org/o-krlzxj88qrtb69fredeu
 More parallel downloads: add `--concurrency 32`.
 
 ## If chunks fail
+
+**`zlib: invalid header` errors, or the same number of chunks failing on every run:** you are using the original tool. Get the fixed build from step 1 and run the same command with the same `--output` folder. Nothing you already downloaded is lost.
 
 A `403` or `404` on chunks means Epic has removed that build's data. Please open an issue saying which version, so the README can be updated.
 
