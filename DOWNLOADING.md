@@ -4,9 +4,9 @@ You need the tool and one command. No Epic login is involved.
 
 ## 1. Get the tool
 
-Download **[manifest_fixed_windows_amd64.zip](https://github.com/addison2kpuzzle-source/DauntlessManifestArchive/raw/main/tools/manifest_fixed_windows_amd64.zip)** from this repo and unzip it.
+Download **[manifest_fixed_windows_amd64.zip](https://github.com/addison2kpuzzle-source/DauntlessManifestArchive/raw/main/manifest_fixed_windows_amd64.zip)** from this repo and unzip it.
 
-This is [meszmate/manifest](https://github.com/meszmate/manifest) v0.1.0 with one bug fixed. **Do not use the original v0.1.0 release:** it fails on about a quarter of the chunks in some builds with `zlib: invalid header` and can never finish. Details, the source patch and checksums are in [tools/](tools/README.md).
+This is [meszmate/manifest](https://github.com/meszmate/manifest) v0.1.0 with one bug fixed. **Do not use the original v0.1.0 release:** it fails on about a quarter of the chunks in some builds with `zlib: invalid header` and can never finish. Details, the source patch and checksums are in [TOOL.md](TOOL.md).
 
 Open Command Prompt in the unzipped folder: open the folder in File Explorer, click the address bar, type `cmd` and press Enter.
 
