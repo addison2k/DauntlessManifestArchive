@@ -1,0 +1,3 @@
+aa70748e4c0a776a991f2bac10ad342adaa31476  manifests/Windows/Dauntless_1.14.7.647472.manifest
+1d98a586c34a69d3ea8d26bcd1e4dcfd3113e751  manifests/Windows/Dauntless_1.6.2.271281.manifest
+2406ba6b70410692acbad2dbbcd9090e0349576e  manifests/Windows/Dauntless_2.1.1.682875.manifest
