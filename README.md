@@ -101,7 +101,7 @@ Open an issue, or message the maintainer on Discord: `addison2k`
 ## Credits
 
 - 1.6.2 and 2.1.1: from the maintainer's own installs
-- 1.14.7: community contribution
+- 1.14.7: Moyka009
 - Tooling: [meszmate/manifest](https://github.com/meszmate/manifest)
 - Inspired by [VastBlast/FortniteManifestArchive](https://github.com/VastBlast/FortniteManifestArchive)
 
