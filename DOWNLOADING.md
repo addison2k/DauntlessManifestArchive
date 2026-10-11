@@ -1,6 +1,6 @@
 # How to download a build
 
-You need three things: the tool, a manifest from this repo, and Dauntless's base URL. No Epic login is involved.
+You need the tool and one command. No Epic login is involved.
 
 ## 1. Get the tool
 
@@ -11,38 +11,62 @@ cd /d "C:\path\to\manifest_0.1.0_windows_amd64"
 manifest --help
 ```
 
-## 2. Get a manifest
+## 2. Download a build (quick way)
 
-Download the `.manifest` for the version you want from the table in the [README](README.md).
+The tool can read a manifest straight from this repo, so there is nothing to save first. Copy the command for the version you want, change the `--output` folder, and run it as one line.
 
-To confirm what a manifest is:
+Make sure the output drive has room for the installed size listed in the [README](README.md).
 
-```
-manifest info "C:\path\to\Dauntless_1.6.2.271281.manifest"
-```
-
-## 3. Download
-
-The base URL is the same for every Dauntless build:
+**1.6.2** (11.56 GB installed)
 
 ```
-https://epicgames-download1.akamaized.net/Builds/Org/o-krlzxj88qrtb69fredeuaf887bl5az/Jackal/default
+manifest download "https://raw.githubusercontent.com/addison2kpuzzle-source/DauntlessManifestArchive/main/manifests/Windows/Dauntless_1.6.2.271281.manifest" --base-url "https://epicgames-download1.akamaized.net/Builds/Org/o-krlzxj88qrtb69fredeuaf887bl5az/Jackal/default" --output "D:\Dauntless_1.6.2"
 ```
 
-Full command (one line):
+**1.14.7** (15.39 GB installed)
 
 ```
-manifest download "C:\path\to\Dauntless_1.6.2.271281.manifest" --base-url "https://epicgames-download1.akamaized.net/Builds/Org/o-krlzxj88qrtb69fredeuaf887bl5az/Jackal/default" --output "D:\Dauntless_1.6.2"
+manifest download "https://raw.githubusercontent.com/addison2kpuzzle-source/DauntlessManifestArchive/main/manifests/Windows/Dauntless_1.14.7.647472.manifest" --base-url "https://epicgames-download1.akamaized.net/Builds/Org/o-krlzxj88qrtb69fredeuaf887bl5az/Jackal/default" --output "D:\Dauntless_1.14.7"
 ```
 
-Make sure the output drive has room for the installed size listed in the README, plus a little extra.
+**2.1.1** (14.45 GB installed)
+
+```
+manifest download "https://raw.githubusercontent.com/addison2kpuzzle-source/DauntlessManifestArchive/main/manifests/Windows/Dauntless_2.1.1.682875.manifest" --base-url "https://epicgames-download1.akamaized.net/Builds/Org/o-krlzxj88qrtb69fredeuaf887bl5az/Jackal/default" --output "D:\Dauntless_2.1.1"
+```
 
 If the download is interrupted, run the same command again. Chunks already downloaded are skipped.
 
-## 4. Verify
+## 3. Verify
+
+Use the same manifest address and your output folder:
 
 ```
-manifest verify "C:\path\to\Dauntless_1.6.2.271281.manifest" --path "D:\Dauntless_1.6.2"
+manifest verify "https://raw.githubusercontent.com/addison2kpuzzle-source/DauntlessManifestArchive/main/manifests/Windows/Dauntless_1.6.2.271281.manifest" --path "D:\Dauntless_1.6.2"
+```
+
+## Using a manifest file instead
+
+If you have a `.manifest` file on disk, for example one that is not in this repo yet, put its path where the web address goes:
+
+```
+manifest download "C:\path\to\file.manifest" --base-url "https://epicgames-download1.akamaized.net/Builds/Org/o-krlzxj88qrtb69fredeuaf887bl5az/Jackal/default" --output "D:\Dauntless"
+```
+
+To see which build a manifest is:
+
+```
+manifest info "C:\path\to\file.manifest"
+```
+
+**Saving a manifest from this repo:** open the file's page on GitHub and use the download button at the top right of the file view. Do not right-click a link and choose "Save link as". That saves a web page, and the tool will reject it with a `bad magic` error.
+
+## The base URL
+
+It is the same for every Dauntless build:
+
+```
+https://epicgames-download1.akamaized.net/Builds/Org/o-krlzxj88qrtb69fredeuaf887bl5az/Jackal/default
 ```
 
 ## If it is slow
@@ -62,7 +86,7 @@ More parallel downloads: add `--concurrency 32`.
 
 A `403` or `404` on chunks means Epic has removed that build's data. Please open an issue saying which version, so the README can be updated.
 
-To spot-check before a full download, the `--dry-run` flag does **not** contact Epic. It only counts files. A real download is the only full test.
+The `--dry-run` flag does **not** contact Epic. It only counts files. A real download is the only full test.
 
 ## Good to know
 
