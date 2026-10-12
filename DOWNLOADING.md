@@ -4,7 +4,7 @@ You need the tool and one command. No Epic login is involved.
 
 ## 1. Get the tool
 
-Download **[manifest_fixed_windows_amd64.zip](https://github.com/addison2kpuzzle-source/DauntlessManifestArchive/raw/main/manifest_fixed_windows_amd64.zip)** from this repo and unzip it.
+Download **[manifest_fixed_windows_amd64.zip](https://github.com/addison2k/DauntlessManifestArchive/raw/main/manifest_fixed_windows_amd64.zip)** from this repo and unzip it.
 
 This is [meszmate/manifest](https://github.com/meszmate/manifest) v0.1.0 with one bug fixed. **Do not use the original v0.1.0 release:** it fails on about a quarter of the chunks in some builds with `zlib: invalid header` and can never finish. Details, the source patch and checksums are in [TOOL.md](TOOL.md).
 
@@ -23,25 +23,25 @@ The tool can read a manifest straight from this repo, so there is nothing to sav
 **1.6.2** (11.56 GB installed)
 
 ```
-manifest download "https://raw.githubusercontent.com/addison2kpuzzle-source/DauntlessManifestArchive/main/manifests/Windows/Dauntless_1.6.2.271281.manifest" --base-url "https://epicgames-download1.akamaized.net/Builds/Org/o-krlzxj88qrtb69fredeuaf887bl5az/Jackal/default" --output "D:\Dauntless_1.6.2"
+manifest download "https://raw.githubusercontent.com/addison2k/DauntlessManifestArchive/main/manifests/Windows/Dauntless_1.6.2.271281.manifest" --base-url "https://epicgames-download1.akamaized.net/Builds/Org/o-krlzxj88qrtb69fredeuaf887bl5az/Jackal/default" --output "D:\Dauntless_1.6.2"
 ```
 
 **1.12.0** (15.29 GB installed)
 
 ```
-manifest download "https://raw.githubusercontent.com/addison2kpuzzle-source/DauntlessManifestArchive/main/manifests/Windows/Dauntless_1.12.0.392819.manifest" --base-url "https://epicgames-download1.akamaized.net/Builds/Org/o-krlzxj88qrtb69fredeuaf887bl5az/Jackal/default" --output "D:\Dauntless_1.12.0"
+manifest download "https://raw.githubusercontent.com/addison2k/DauntlessManifestArchive/main/manifests/Windows/Dauntless_1.12.0.392819.manifest" --base-url "https://epicgames-download1.akamaized.net/Builds/Org/o-krlzxj88qrtb69fredeuaf887bl5az/Jackal/default" --output "D:\Dauntless_1.12.0"
 ```
 
 **1.14.7** (15.39 GB installed)
 
 ```
-manifest download "https://raw.githubusercontent.com/addison2kpuzzle-source/DauntlessManifestArchive/main/manifests/Windows/Dauntless_1.14.7.647472.manifest" --base-url "https://epicgames-download1.akamaized.net/Builds/Org/o-krlzxj88qrtb69fredeuaf887bl5az/Jackal/default" --output "D:\Dauntless_1.14.7"
+manifest download "https://raw.githubusercontent.com/addison2k/DauntlessManifestArchive/main/manifests/Windows/Dauntless_1.14.7.647472.manifest" --base-url "https://epicgames-download1.akamaized.net/Builds/Org/o-krlzxj88qrtb69fredeuaf887bl5az/Jackal/default" --output "D:\Dauntless_1.14.7"
 ```
 
 **2.1.1** (14.45 GB installed)
 
 ```
-manifest download "https://raw.githubusercontent.com/addison2kpuzzle-source/DauntlessManifestArchive/main/manifests/Windows/Dauntless_2.1.1.682875.manifest" --base-url "https://epicgames-download1.akamaized.net/Builds/Org/o-krlzxj88qrtb69fredeuaf887bl5az/Jackal/default" --output "D:\Dauntless_2.1.1"
+manifest download "https://raw.githubusercontent.com/addison2k/DauntlessManifestArchive/main/manifests/Windows/Dauntless_2.1.1.682875.manifest" --base-url "https://epicgames-download1.akamaized.net/Builds/Org/o-krlzxj88qrtb69fredeuaf887bl5az/Jackal/default" --output "D:\Dauntless_2.1.1"
 ```
 
 If the download is interrupted, run the same command again. Chunks already downloaded are skipped. Game files only appear in the folder at the very end, so an empty-looking folder during the download is normal.
@@ -53,7 +53,7 @@ A finished download ends with a summary that says `failed: 0`.
 Use the same manifest address and your output folder:
 
 ```
-manifest verify "https://raw.githubusercontent.com/addison2kpuzzle-source/DauntlessManifestArchive/main/manifests/Windows/Dauntless_1.6.2.271281.manifest" --path "D:\Dauntless_1.6.2"
+manifest verify "https://raw.githubusercontent.com/addison2k/DauntlessManifestArchive/main/manifests/Windows/Dauntless_1.6.2.271281.manifest" --path "D:\Dauntless_1.6.2"
 ```
 
 ## Using a manifest file instead
