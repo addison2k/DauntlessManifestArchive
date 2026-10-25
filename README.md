@@ -25,6 +25,7 @@ If you ever installed Dauntless through Epic, Legendary or Heroic, you may have 
 |---|---|---|---|---|---|---|
 | 1.5.4 | 259586 | 442 | 11.59 GB | 12.09 GB | [download](manifests/Windows/Dauntless_1.5.4.259586.manifest) | `18680f431b1bed1258c283aae8a2244ddef1fdb8` |
 | 1.6.2 | 271281 | 444 | 11.08 GB | 11.56 GB | [download](manifests/Windows/Dauntless_1.6.2.271281.manifest) | `1d98a586c34a69d3ea8d26bcd1e4dcfd3113e751` |
+| 1.10.5 | 365075 | 606 | 14.56 GB | 15.10 GB | [download](manifests/Windows/Dauntless_1.10.5.365075.manifest) | `a31648745d9e41016aaa6ed9a16d1eabab85ec7d` |
 | 1.12.0 | 392819 | 609 | 14.74 GB | 15.29 GB | [download](manifests/Windows/Dauntless_1.12.0.392819.manifest) | `46b4097c070afc29ed783e77a68ffa936b6a3504` |
 | 1.14.1 | 559288 | 610 | 15.96 GB | 16.53 GB | [download](manifests/Windows/Dauntless_1.14.1.559288.manifest) | `428551395d2317ad22337a5f6f501bd75a0c212a` |
 | 1.14.5 | 582369 | 611 | 14.90 GB | 15.40 GB | [download](manifests/Windows/Dauntless_1.14.5.582369.manifest) | `c5ff78582b97e0f67a9cf79d7f6842cfd9049007` |
@@ -54,7 +55,7 @@ Dauntless was on the Epic Games Store from May 21, 2019 until the shutdown, so e
 | 1.7.x | 2021 | wanted |
 | 1.8.x | From October 14, 2021 | wanted |
 | 1.9.x | 2021 to 2022 | wanted |
-| 1.10.x | 2022 | wanted |
+| 1.10.x | 2022 | **1.10.5 archived**, others wanted |
 | 1.11.x | 2022, through 1.11.5 in September | wanted |
 | 1.12.x | October to December 2022 | **1.12.0 archived**, others wanted |
 | 1.13.x | January to April 2023 | wanted |
@@ -107,6 +108,7 @@ Open an issue, or message the maintainer on Discord: `addison2k`
 
 - 1.5.4: Navjit Singh
 - 1.6.2 and 2.1.1: from the maintainer's own installs
+- 1.10.5: Darachi
 - 1.12.0: zgh95
 - 1.14.1: Brutus228
 - 1.14.5: Santi
