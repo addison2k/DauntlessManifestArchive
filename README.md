@@ -119,6 +119,15 @@ Open an issue, or message the maintainer on Discord: `addison2k`
 
 Contributors are credited here by whatever name they choose, or kept anonymous on request.
 
+## License
+
+The archive's own work is under the [MIT License](LICENSE): the README and other docs, the checksum list, and `plain-chunk-fix.patch`.
+
+It does not cover:
+
+- **The manifest files** in `manifests/`. They are metadata describing Epic's servers and Dauntless's files, which belong to their respective owners (see the disclaimer below). They are kept here for preservation only.
+- **The download tool** in `manifest_fixed_windows_amd64.zip`. It is a build of [meszmate/manifest](https://github.com/meszmate/manifest) and stays under that project's own MIT licence, included in the zip as `LICENSE.txt`.
+
 ## Disclaimer
 
 This is an unofficial fan preservation project. It is not affiliated with or endorsed by Phoenix Labs, Epic Games or any current rights holder. Dauntless and its content belong to their respective owners. The manifests here are metadata describing files on Epic's servers. Rights holders who want something removed can open an issue and it will be taken down.
