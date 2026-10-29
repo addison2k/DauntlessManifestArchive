@@ -15,7 +15,7 @@ Dauntless shut down in May 2025, but Epic's CDN still serves the chunks for old 
 |---|---|
 | **1.4.4** | Target build of the dauntless-revived private server project |
 | **2.1.0.681846** | First Awakening build |
-| Anything from 2019 or 2020 | Nothing from before Reforged (1.5.0, December 2020) is archived yet |
+| Anything from 2019 or early 2020 | 1.4.3 (2020) is the oldest build archived so far |
 
 If you ever installed Dauntless through Epic, Legendary or Heroic, you may have one of these without knowing it. [Checking takes two minutes](CONTRIBUTING.md).
 
@@ -23,6 +23,7 @@ If you ever installed Dauntless through Epic, Legendary or Heroic, you may have 
 
 | Version | Build | Files | Download | Installed | Manifest | SHA-1 |
 |---|---|---|---|---|---|---|
+| 1.4.3 | 237438 | 409 | 10.51 GB | 10.90 GB | [download](manifests/Windows/Dauntless_1.4.3.237438.manifest) | `98d84c30419d283e10fc4f02901ecb30fe91d910` |
 | 1.5.4 | 259586 | 442 | 11.59 GB | 12.09 GB | [download](manifests/Windows/Dauntless_1.5.4.259586.manifest) | `18680f431b1bed1258c283aae8a2244ddef1fdb8` |
 | 1.6.2 | 271281 | 444 | 11.08 GB | 11.56 GB | [download](manifests/Windows/Dauntless_1.6.2.271281.manifest) | `1d98a586c34a69d3ea8d26bcd1e4dcfd3113e751` |
 | 1.10.5 | 365075 | 606 | 14.56 GB | 15.10 GB | [download](manifests/Windows/Dauntless_1.10.5.365075.manifest) | `a31648745d9e41016aaa6ed9a16d1eabab85ec7d` |
@@ -33,7 +34,7 @@ If you ever installed Dauntless through Epic, Legendary or Heroic, you may have 
 | 1.14.7 | 647472 | 611 | 14.89 GB | 15.39 GB | [download](manifests/Windows/Dauntless_1.14.7.647472.manifest) | `aa70748e4c0a776a991f2bac10ad342adaa31476` |
 | 2.1.1 | 682875 | 832 | 13.86 GB | 14.45 GB | [download](manifests/Windows/Dauntless_2.1.1.682875.manifest) | `2406ba6b70410692acbad2dbbcd9090e0349576e` |
 
-1.14.7 was downloaded in full from Epic's CDN on October 11, 2026. 1.14.5 was spot-checked on October 19, 2026, and 1.14.1 on October 24, 2026. The other builds were spot-checked or added the same week. Epic can remove old chunks at any time, so a manifest here is not a guarantee.
+1.14.7 was downloaded in full from Epic's CDN on October 11, 2026. 1.14.5 was spot-checked on October 19, 2026, and 1.14.1 on October 24, 2026. 1.4.3 was added on October 29, 2026. The other builds were spot-checked or added the same week. Epic can remove old chunks at any time, so a manifest here is not a guarantee.
 
 ## Wanted builds
 
@@ -49,7 +50,7 @@ Dauntless was on the Epic Games Store from May 21, 2019 until the shutdown, so e
 | 1.1.x | From December 2019 | wanted |
 | 1.2.x | 2020 | wanted |
 | 1.3.x | 2020 | wanted |
-| 1.4.x | 2020, last line before Reforged | wanted, **1.4.4 most of all** |
+| 1.4.x | 2020, last line before Reforged | **1.4.3 archived**, others wanted, **1.4.4 most of all** |
 | 1.5.x | From December 3, 2020, Reforged | **1.5.4 archived**, others wanted |
 | 1.6.x | 2021 | **1.6.2 archived**, others wanted |
 | 1.7.x | 2021 | wanted |
@@ -106,6 +107,7 @@ Open an issue, or message the maintainer on Discord: `addison2k`
 
 ## Credits
 
+- 1.4.3: Julio Cesar (RyuSei)
 - 1.5.4: Navjit Singh
 - 1.6.2 and 2.1.1: from the maintainer's own installs
 - 1.10.5: Darachi
