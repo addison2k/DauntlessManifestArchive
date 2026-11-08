@@ -36,7 +36,7 @@ If you ever installed Dauntless through Epic, Legendary or Heroic, you may have 
 | 1.14.7 | 647472 | 611 | 14.89 GB | 15.39 GB | [download](manifests/Windows/Dauntless_1.14.7.647472.manifest) | `aa70748e4c0a776a991f2bac10ad342adaa31476` |
 | 2.1.1 | 682875 | 832 | 13.86 GB | 14.45 GB | [download](manifests/Windows/Dauntless_2.1.1.682875.manifest) | `2406ba6b70410692acbad2dbbcd9090e0349576e` |
 
-1.14.7 was downloaded in full from Epic's CDN on October 11, 2026. 1.14.5 was spot-checked on October 19, 2026, and 1.14.1 on October 24, 2026. 1.4.3 was added on October 29, 2026. 1.3.1 was added on November 6, 2026 and spot-checked the same day. 1.9.0 was added on November 7, 2026. The other builds were spot-checked or added the same week. Epic can remove old chunks at any time, so a manifest here is not a guarantee.
+1.14.7 was downloaded in full from Epic's CDN on October 11, 2026. 1.14.5 was spot-checked on October 19, 2026, and 1.14.1 on October 24, 2026. 1.4.3 was added on October 29, 2026. 1.3.1 was added on November 6, 2026 and spot-checked the same day. 1.9.0 was added on November 7, 2026 and spot-checked the same day (12 of 12 sampled chunks still served). The other builds were spot-checked or added the same week. Epic can remove old chunks at any time, so a manifest here is not a guarantee.
 
 ## Wanted builds
 
