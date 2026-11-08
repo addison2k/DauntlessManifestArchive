@@ -23,11 +23,11 @@ If you ever installed Dauntless through Epic, Legendary or Heroic, you may have 
 
 | Version | Build | Files | Download | Installed | Manifest | SHA-1 |
 |---|---|---|---|---|---|---|
-| 1.3.1 | 210792 | 399 | 9.19 GB | 9.57 GB | [download](manifests/Windows/Dauntless_1.3.1.210792.manifest) | `3912f667a4ec6ca6f92576b5f31c87db876b6460` |
+| 1.3.1 | 210792 | 399 | 8.56 GB | 8.91 GB | [download](manifests/Windows/Dauntless_1.3.1.210792.manifest) | `3912f667a4ec6ca6f92576b5f31c87db876b6460` |
 | 1.4.3 | 237438 | 409 | 10.51 GB | 10.90 GB | [download](manifests/Windows/Dauntless_1.4.3.237438.manifest) | `98d84c30419d283e10fc4f02901ecb30fe91d910` |
 | 1.5.4 | 259586 | 442 | 11.59 GB | 12.09 GB | [download](manifests/Windows/Dauntless_1.5.4.259586.manifest) | `18680f431b1bed1258c283aae8a2244ddef1fdb8` |
 | 1.6.2 | 271281 | 444 | 11.08 GB | 11.56 GB | [download](manifests/Windows/Dauntless_1.6.2.271281.manifest) | `1d98a586c34a69d3ea8d26bcd1e4dcfd3113e751` |
-| 1.9.0 | 328374 | 598 | 15.74 GB | 16.24 GB | [download](manifests/Windows/Dauntless_1.9.0.328374.manifest) | `049e9574b4340233bbeaca888c2daf90ccc3dba9` |
+| 1.9.0 | 328374 | 598 | 14.66 GB | 15.13 GB | [download](manifests/Windows/Dauntless_1.9.0.328374.manifest) | `049e9574b4340233bbeaca888c2daf90ccc3dba9` |
 | 1.10.5 | 365075 | 606 | 14.56 GB | 15.10 GB | [download](manifests/Windows/Dauntless_1.10.5.365075.manifest) | `a31648745d9e41016aaa6ed9a16d1eabab85ec7d` |
 | 1.12.0 | 392819 | 609 | 14.74 GB | 15.29 GB | [download](manifests/Windows/Dauntless_1.12.0.392819.manifest) | `46b4097c070afc29ed783e77a68ffa936b6a3504` |
 | 1.14.1 | 559288 | 610 | 15.96 GB | 16.53 GB | [download](manifests/Windows/Dauntless_1.14.1.559288.manifest) | `428551395d2317ad22337a5f6f501bd75a0c212a` |
