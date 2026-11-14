@@ -30,13 +30,14 @@ If you ever installed Dauntless through Epic, Legendary or Heroic, you may have 
 | 1.9.0 | 328374 | 598 | 14.66 GB | 15.13 GB | [download](manifests/Windows/Dauntless_1.9.0.328374.manifest) | `049e9574b4340233bbeaca888c2daf90ccc3dba9` |
 | 1.10.5 | 365075 | 606 | 14.56 GB | 15.10 GB | [download](manifests/Windows/Dauntless_1.10.5.365075.manifest) | `a31648745d9e41016aaa6ed9a16d1eabab85ec7d` |
 | 1.12.0 | 392819 | 609 | 14.74 GB | 15.29 GB | [download](manifests/Windows/Dauntless_1.12.0.392819.manifest) | `46b4097c070afc29ed783e77a68ffa936b6a3504` |
+| 1.13.3 | 536666 | 609 | 14.85 GB | 15.36 GB | [download](manifests/Windows/Dauntless_1.13.3.536666.manifest) | `f1d300d8d838bb471aa504f4f9db9e5729e3eb1b` |
 | 1.14.1 | 559288 | 610 | 15.96 GB | 16.53 GB | [download](manifests/Windows/Dauntless_1.14.1.559288.manifest) | `428551395d2317ad22337a5f6f501bd75a0c212a` |
 | 1.14.5 | 582369 | 611 | 14.90 GB | 15.40 GB | [download](manifests/Windows/Dauntless_1.14.5.582369.manifest) | `c5ff78582b97e0f67a9cf79d7f6842cfd9049007` |
 | 1.14.6 | 615145 | 611 | 14.89 GB | 15.40 GB | [download](manifests/Windows/Dauntless_1.14.6.615145.manifest) | `db712f4f6d8adf8be4fa957047b8914dc58bb3e2` |
 | 1.14.7 | 647472 | 611 | 14.89 GB | 15.39 GB | [download](manifests/Windows/Dauntless_1.14.7.647472.manifest) | `aa70748e4c0a776a991f2bac10ad342adaa31476` |
 | 2.1.1 | 682875 | 832 | 13.86 GB | 14.45 GB | [download](manifests/Windows/Dauntless_2.1.1.682875.manifest) | `2406ba6b70410692acbad2dbbcd9090e0349576e` |
 
-1.14.7 was downloaded in full from Epic's CDN on October 11, 2026. 1.14.5 was spot-checked on October 19, 2026, and 1.14.1 on October 24, 2026. 1.4.3 was added on October 29, 2026. 1.3.1 was added on November 6, 2026 and spot-checked the same day. 1.9.0 was added on November 7, 2026 and spot-checked the same day (12 of 12 sampled chunks still served). The other builds were spot-checked or added the same week. Epic can remove old chunks at any time, so a manifest here is not a guarantee.
+1.14.7 was downloaded in full from Epic's CDN on October 11, 2026. 1.14.5 was spot-checked on October 19, 2026, and 1.14.1 on October 24, 2026. 1.4.3 was added on October 29, 2026. 1.3.1 was added on November 6, 2026 and spot-checked the same day. 1.9.0 was added on November 7, 2026 and spot-checked the same day (12 of 12 sampled chunks still served). 1.13.3 was added on November 13, 2026. The other builds were spot-checked or added the same week. Epic can remove old chunks at any time, so a manifest here is not a guarantee.
 
 ## Wanted builds
 
@@ -61,7 +62,7 @@ Dauntless was on the Epic Games Store from May 21, 2019 until the shutdown, so e
 | 1.10.x | 2022 | **1.10.5 archived**, others wanted |
 | 1.11.x | 2022, through 1.11.5 in September | wanted |
 | 1.12.x | October to December 2022 | **1.12.0 archived**, others wanted |
-| 1.13.x | January to April 2023 | wanted |
+| 1.13.x | January to April 2023 | **1.13.3 archived**, others wanted |
 | 1.14.x | April 2023 to April 2024 | **1.14.1, 1.14.5, 1.14.6 and 1.14.7 archived**, others wanted |
 | 2.1.x | December 2024, Awakening | **2.1.1 archived**, 2.1.0 wanted |
 
@@ -77,7 +78,7 @@ Dauntless was on the Epic Games Store from May 21, 2019 until the shutdown, so e
 | 1.13.0 | January 19, 2023 | wanted |
 | 1.13.1 | February 1, 2023 | wanted |
 | 1.13.2 | February 16, 2023 | wanted |
-| 1.13.3 | March 9, 2023 | wanted |
+| 1.13.3 (build 536666) | March 9, 2023 | **archived** |
 | 1.13.4 | March 23, 2023 | wanted |
 | 1.13.5 | April 5, 2023 | wanted |
 | 1.14.0 | April 27, 2023 | wanted |
@@ -116,6 +117,7 @@ Open an issue, or message the maintainer on Discord: `addison2k`
 - 1.9.0: ImStimky
 - 1.10.5: Darachi
 - 1.12.0: zgh95
+- 1.13.3: Vellum (VollumeControll)
 - 1.14.1: Brutus228
 - 1.14.5: Santi
 - 1.14.6: Khodex
